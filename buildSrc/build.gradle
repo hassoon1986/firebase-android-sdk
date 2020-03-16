@@ -42,6 +42,8 @@ dependencies {
     implementation 'digital.wup:android-maven-publish:3.6.2'
     implementation 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.3.20'
     implementation 'org.json:json:20180813'
+    implementation 'org.dom4j:dom4j:2.1.1'
+    runtime 'jaxen:jaxen:1.2.0'
 
     implementation 'io.opencensus:opencensus-api:0.18.0'
     implementation 'io.opencensus:opencensus-exporter-stats-stackdriver:0.18.0'

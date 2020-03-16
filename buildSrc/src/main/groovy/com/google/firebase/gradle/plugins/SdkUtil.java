@@ -54,4 +54,9 @@ public final class SdkUtil {
         getSdkDir(project),
         String.format("/platforms/%s/android.jar", android.getCompileSdkVersion()));
   }
+
+  public static String getFullName(Project project) {
+    String path = project.getPath();
+    return path.startsWith(":") ? path.substring(1) : path;
+  }
 }

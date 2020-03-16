@@ -22,7 +22,8 @@ public class MetricsServiceApi {
 
   /** An enum for all supported health metrics. */
   enum Metric {
-    BinarySize
+    BinarySize,
+    Coverage
   }
 
   /** An api object for a test result. */
